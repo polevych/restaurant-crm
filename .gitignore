@@ -1,0 +1,58 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go
+*.o
+*.a
+*.test
+*.out
+*.test.out
+*.prof
+
+# Ignore the Go module dependency directory
+/vendor/
+
+# Ignore IDE and editor-specific files
+.idea/
+.vscode/
+*.sublime-*
+
+# Ignore build output directory
+/build/
+
+# Ignore environment-specific files
+.env
+
+# Ignore binary files, archives, and logs
+*.bin
+*.zip
+*.tar.gz
+*.log
+
+# Ignore generated files and directories
+/_generated/
+
+# Ignore any files or directories specific to your development setup
+# Replace `username` with your actual username or machine name
+/username-specific/
+
+# Ignore database files
+*.db
+
+# Ignore API keys, passwords, and sensitive information
+secrets.yaml
+secrets.yml
+secrets.json
+
+# Ignore automatically generated documentation
+/doc/
+/docs/
+
+# Ignore cache and temporary files
+/cache/
+/tmp/
+*.swp
